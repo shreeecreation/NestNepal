@@ -5,13 +5,12 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: '>=2.19.0-388.0.dev <3.0.0'
+  sdk: '>=2.19.0-388.0.dev <4.0.0'
 
 
 dependencies:
   flutter:
     sdk: flutter
-
 
   cupertino_icons: ^1.0.2
   adaptive_sizer: ^0.0.4
@@ -25,13 +24,13 @@ dependencies:
   #splash Screen
   animated_splash_screen: ^1.3.0
   page_transition: ^2.0.9
-
-  animate_do: ^3.0.2
+  
+  #rename the app 
   rename: ^2.1.1
-
-
-
-
+  provider: ^6.0.5
+  connectivity_plus: ^3.0.3
+  restart_app: ^1.1.2
+  
 dev_dependencies:
   flutter_test:
     sdk: flutter
